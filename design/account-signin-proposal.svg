@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" font-family="Roboto, Arial, sans-serif">
+  <defs>
+    <style>
+      .bg      { fill: #0d0d0f; }
+      .panel   { fill: #16161a; stroke: #2a2a30; stroke-width: 1; }
+      .hdr     { fill: #8e8e96; font-size: 11px; letter-spacing: 1.4px; font-weight: 600; }
+      .title   { fill: #f2f2f5; font-size: 14px; }
+      .sub     { fill: #8e8e96; font-size: 11.5px; }
+      .div     { stroke: #26262c; stroke-width: 1; }
+      .lab     { fill: #6f6f78; font-size: 10.5px; letter-spacing: .8px; }
+      .note    { fill: #9aa0a6; font-size: 11.5px; }
+      .warn    { fill: #f2b03d; font-size: 11px; }
+    </style>
+    <clipPath id="ava"><circle cx="0" cy="0" r="17"/></clipPath>
+  </defs>
+
+  <rect width="900" height="560" class="bg"/>
+  <text x="450" y="34" text-anchor="middle" fill="#f2f2f5" font-size="16" font-weight="600">Account section in the Library sheet</text>
+  <text x="450" y="54" text-anchor="middle" class="note">Replaces the single "Account (web)" row. No emoji, English only.</text>
+
+  <!-- ============ SIGNED OUT ============ -->
+  <text x="60" y="92" class="lab">STATE 1 — SIGNED OUT</text>
+  <rect x="40" y="102" width="380" height="330" rx="10" class="panel"/>
+
+  <text x="60" y="132" class="hdr">ACCOUNT</text>
+  <line x1="60" y1="144" x2="400" y2="144" class="div"/>
+
+  <!-- Sign in with Google row -->
+  <g transform="translate(60,164)">
+    <!-- Google G mark -->
+    <g transform="translate(2,2) scale(0.62)">
+      <path d="M45.5 24.5c0-1.6-.1-2.8-.4-4H23v7.8h12.9c-.3 2.2-1.7 5.5-4.9 7.7l-.1.1 7.2 5.6.5.2c4.5-4.2 6.9-10.3 6.9-17.4z" fill="#4285F4"/>
+      <path d="M23 46c6.5 0 12-2.1 15.9-5.8l-7.6-5.9c-2-1.4-4.7-2.4-8.3-2.4-4.5 0-8.4 2.5-10.4 6.2l-.1.1-7.4 5.7-.2.1C9 40.9 15.4 46 23 46z" fill="#34A853"/>
+      <path d="M12.6 30.2c-.6-1.8-1-3.7-1-5.7s.4-3.9 1-5.7l-.1-.2-7.6-5.9-.2.1C2.5 17.6 1.5 21.9 1.5 24.5s1 6.9 3.2 12l7.9-6.3z" fill="#FBBC05"/>
+      <path d="M23 12.3c4.4 0 7.4 1.9 9.1 3.5l6.6-6.5C35 5.9 30 3.7 23 3.7 15.4 3.7 9 8.8 4.7 13.4l7.9 6.3c2-3.7 5.9-7.4 10.4-7.4z" fill="#EA4335"/>
+    </g>
+    <text x="52" y="14" class="title">Sign in with Google</text>
+    <text x="52" y="33" class="sub">Watch with your subscriptions</text>
+  </g>
+  <line x1="60" y1="212" x2="400" y2="212" class="div"/>
+
+  <!-- status -->
+  <g transform="translate(60,236)">
+    <circle cx="9" cy="7" r="5" fill="none" stroke="#5a5a63" stroke-width="1.4"/>
+    <text x="28" y="11" class="sub">Not signed in</text>
+  </g>
+
+  <!-- other rows still present -->
+  <line x1="60" y1="266" x2="400" y2="266" class="div"/>
+  <g transform="translate(60,288)">
+    <text x="0" y="6" class="title">History</text>
+    <text x="0" y="24" class="sub">Watch history from the web</text>
+  </g>
+  <line x1="60" y1="326" x2="400" y2="326" class="div"/>
+  <g transform="translate(60,348)">
+    <text x="0" y="6" class="title">Notifications</text>
+    <text x="0" y="24" class="sub">Open in web</text>
+  </g>
+
+  <text x="60" y="452" class="warn">If Google blocks the WebView, a hint offers</text>
+  <text x="60" y="470" class="warn">"Open in browser" as a fallback.</text>
+
+  <!-- ============ SIGNED IN ============ -->
+  <text x="500" y="92" class="lab">STATE 2 — SIGNED IN</text>
+  <rect x="480" y="102" width="380" height="330" rx="10" class="panel"/>
+
+  <text x="500" y="132" class="hdr">ACCOUNT</text>
+  <line x1="500" y1="144" x2="840" y2="144" class="div"/>
+
+  <!-- avatar + name -->
+  <g transform="translate(500,158)">
+    <g clip-path="url(#ava)">
+      <rect x="-17" y="-17" width="34" height="34" fill="#3a3a44"/>
+      <circle cx="0" cy="-4" r="7" fill="#8e8e96"/>
+      <path d="M-11 16a11 11 0 0 1 22 0z" fill="#8e8e96"/>
+    </g>
+    <text x="44" y="0" class="title">Yeamin</text>
+    <text x="44" y="18" class="sub">name@gmail.com</text>
+  </g>
+  <line x1="500" y1="216" x2="840" y2="216" class="div"/>
+
+  <g transform="translate(500,238)">
+    <text x="0" y="6" class="title">Your channel</text>
+    <text x="340" y="6" text-anchor="end" fill="#5a5a63" font-size="16">&gt;</text>
+  </g>
+  <line x1="500" y1="266" x2="840" y2="266" class="div"/>
+  <g transform="translate(500,288)">
+    <text x="0" y="6" class="title">Switch account</text>
+    <text x="340" y="6" text-anchor="end" fill="#5a5a63" font-size="16">&gt;</text>
+  </g>
+  <line x1="500" y1="316" x2="840" y2="316" class="div"/>
+  <g transform="translate(500,338)">
+    <text x="0" y="6" class="title" fill="#ef5a5a">Sign out</text>
+  </g>
+
+  <text x="500" y="452" class="note">Name and avatar are already scraped by</text>
+  <text x="500" y="470" class="note">mtScanAccount, just never shown.</text>
+
+  <line x1="40" y1="494" x2="860" y2="494" class="div"/>
+  <text x="40" y="518" class="note">Cookie work (not visible, but required): accept cookies, allow third-party cookies for the</text>
+  <text x="40" y="536" class="note">youtube.com to accounts.google.com hop, and flush on pause so the session survives restart.</text>
+</svg>

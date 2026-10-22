@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" font-family="Roboto, Arial, sans-serif">
+  <defs>
+    <style>
+      .bg      { fill: #0d0d0f; }
+      .panel   { fill: #16161a; stroke: #2a2a30; stroke-width: 1; }
+      .dlg     { fill: #1b1b1d; }
+      .hdr     { fill: #8e8e96; font-size: 10.5px; letter-spacing: 1.4px; font-weight: 600; }
+      .title   { fill: #f2f2f5; font-size: 13.5px; }
+      .big     { fill: #f2f2f5; font-size: 20px; font-weight: 600; }
+      .sub     { fill: #9a9a9a; font-size: 11.5px; }
+      .row     { fill: #d8d8dc; font-size: 13px; }
+      .when    { fill: #8e8e96; font-size: 11px; }
+      .div     { stroke: #2a2a30; stroke-width: 1; }
+      .hair    { stroke: #1c1c1f; stroke-width: 1; }
+      .lab     { fill: #6f6f78; font-size: 10.5px; letter-spacing: .8px; }
+      .note    { fill: #9aa0a6; font-size: 11.5px; }
+      .foot    { fill: #6f6f78; font-size: 11px; }
+      .acc     { fill: #3ea6ff; font-size: 11.5px; }
+      .btn     { fill: #3ea6ff; font-size: 11.5px; font-weight: 600; }
+      .cnt     { fill: #6f6f78; font-size: 11px; }
+    </style>
+    <linearGradient id="thumb" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3a3a42"/>
+      <stop offset="100%" stop-color="#1b1b21"/>
+    </linearGradient>
+    <linearGradient id="thumb2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2e3a44"/>
+      <stop offset="100%" stop-color="#191d22"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="620" class="bg"/>
+  <text x="450" y="30" text-anchor="middle" fill="#f2f2f5" font-size="16" font-weight="600">History screen — same card style as Downloads</text>
+  <text x="450" y="50" text-anchor="middle" class="note">Left: the plain text list you get now. Right: the proposed screen. No emoji, English only.</text>
+
+  <!-- ==================== CURRENT ==================== -->
+  <text x="60" y="78" class="lab">CURRENT (v2.08)</text>
+  <rect x="40" y="86" width="390" height="464" rx="10" class="panel"/>
+
+  <rect x="60" y="108" width="350" height="300" rx="8" class="dlg"/>
+  <text x="76" y="136" fill="#f2f2f5" font-size="15" font-weight="600">Watch history (12)</text>
+
+  <text x="76" y="168" class="row">(Oct 18)  Big Buck Bunny — 4K official Blender</text>
+  <text x="76" y="196" class="row">(Oct 18)  Sintel — official trailer</text>
+  <text x="76" y="224" class="row">(Oct 17)  Tears of Steel — full movie</text>
+  <text x="76" y="252" class="row">(Oct 17)  Caminandes 2 — Gran Dillama</text>
+  <text x="76" y="280" class="row">(Oct 16)  Cosmos Laundromat — first cycle</text>
+  <text x="76" y="308" class="row">(Oct 16)  Blender — how to model a chair</text>
+  <text x="76" y="336" class="row">(Oct 15)  Agent 327 — operation Barbershop</text>
+
+  <text x="330" y="386" text-anchor="end" class="btn">CLEAR</text>
+  <text x="410" y="386" text-anchor="end" class="btn">CLOSE</text>
+
+  <text x="60" y="446" class="foot">One flat line of text per video — no picture,</text>
+  <text x="60" y="462" class="foot">no channel, hard to scan, capped at 100 rows.</text>
+  <text x="60" y="486" class="foot">Tapping a row opens the video.</text>
+
+  <!-- ==================== PROPOSED ==================== -->
+  <text x="490" y="78" class="lab">PROPOSED (v2.09)</text>
+  <rect x="470" y="86" width="390" height="464" rx="10" class="panel"/>
+
+  <text x="490" y="116" class="big">History</text>
+  <text x="840" y="116" text-anchor="end" class="acc">Clear all</text>
+  <line x1="490" y1="130" x2="840" y2="130" class="div"/>
+
+  <text x="490" y="152" class="hdr">TODAY</text>
+
+  <rect x="490" y="160" width="124" height="70" rx="4" fill="url(#thumb)"/>
+  <text x="626" y="178" class="title">Big Buck Bunny — 4K official</text>
+  <text x="626" y="196" class="title">Blender short film</text>
+  <text x="626" y="218" class="sub">2 hours ago</text>
+  <circle cx="830" cy="180" r="1.7" fill="#9a9a9a"/>
+  <circle cx="830" cy="186" r="1.7" fill="#9a9a9a"/>
+  <circle cx="830" cy="192" r="1.7" fill="#9a9a9a"/>
+  <line x1="490" y1="242" x2="840" y2="242" class="hair"/>
+
+  <rect x="490" y="250" width="124" height="70" rx="4" fill="url(#thumb2)"/>
+  <text x="626" y="268" class="title">Sintel — official trailer</text>
+  <text x="626" y="286" class="title">Durian open movie project</text>
+  <text x="626" y="308" class="sub">5 hours ago</text>
+  <circle cx="830" cy="270" r="1.7" fill="#9a9a9a"/>
+  <circle cx="830" cy="276" r="1.7" fill="#9a9a9a"/>
+  <circle cx="830" cy="282" r="1.7" fill="#9a9a9a"/>
+
+  <text x="490" y="352" class="hdr">YESTERDAY</text>
+
+  <rect x="490" y="360" width="124" height="70" rx="4" fill="url(#thumb)"/>
+  <text x="626" y="378" class="title">Tears of Steel — full movie</text>
+  <text x="626" y="396" class="title">Blender Institute science fiction</text>
+  <text x="626" y="418" class="sub">Yesterday at 21:40</text>
+  <circle cx="830" cy="380" r="1.7" fill="#9a9a9a"/>
+  <circle cx="830" cy="386" r="1.7" fill="#9a9a9a"/>
+  <circle cx="830" cy="392" r="1.7" fill="#9a9a9a"/>
+  <line x1="490" y1="442" x2="840" y2="442" class="hair"/>
+
+  <rect x="490" y="450" width="124" height="70" rx="4" fill="url(#thumb2)"/>
+  <text x="626" y="468" class="title">Caminandes 2 — Gran Dillama</text>
+  <text x="626" y="486" class="title">Blender animated short</text>
+  <text x="626" y="508" class="sub">Yesterday at 18:02</text>
+  <circle cx="830" cy="470" r="1.7" fill="#9a9a9a"/>
+  <circle cx="830" cy="476" r="1.7" fill="#9a9a9a"/>
+  <circle cx="830" cy="482" r="1.7" fill="#9a9a9a"/>
+
+  <text x="490" y="544" class="foot">Scrolls on. Three-dot menu removes a single video.</text>
+
+  <!-- ==================== NOTES ==================== -->
+  <text x="40" y="586" class="lab">WHAT CHANGES</text>
+  <text x="40" y="606" class="note">Same thumbnail cards as Downloads, grouped by day. Thumbnails come from YouTube using the stored video id.</text>
+</svg>
